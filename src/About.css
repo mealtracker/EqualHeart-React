@@ -1,0 +1,38 @@
+.about .cropPicture {
+			text-align: center;
+		    height: 350px;
+		    overflow: hidden;
+		}
+
+.about .content-services {background-color: black; color:white; padding:10px; }
+.about .content-services span {max-width: 880px; text-align: left;display: inline-block;}
+
+.middle > * {
+    vertical-align: middle;
+    display: inline-block;
+}
+.about .middle img {max-width: 300px;}
+.about .services {
+    font-size: 1em;
+    text-align: left;
+    color: black;
+    width: 50%;
+    margin-left:20px;
+}
+
+.about_centre {
+    margin: auto;
+    max-width: 912px;
+    text-align: center;
+}
+
+.hd5 {font-weight: bold;color:blue;}
+.hd6 {padding-left:15px;}
+#partners>div{margin-left: 40px;}
+#partners>div a {color:blue; text-decoration: none;}
+#partners>div a:hover {color:green;}
+@media (max-width: 767px) {
+    .about .services {
+        width:90%;
+    }
+}

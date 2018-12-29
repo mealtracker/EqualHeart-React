@@ -1,0 +1,148 @@
+#contact_form {padding:20px 30px;}
+#contact_form .invalid_feedback {display:block;color:red;    font-size: 12px;}
+/* from original contact form styling */
+.page-title {
+    background-color: #333;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.4) inset;
+    color: #FFF;
+    padding: 26px 70px;
+    margin: 0px -40px 20px -40px;
+}
+.widget {
+	margin-bottom: 20px;
+}
+
+#sidebar .widget {
+	margin-bottom: 30px;
+}
+/* Contact Info */
+
+.contact-info {
+	word-wrap: break-word;
+}
+
+.contact-info div p {
+    background-repeat: no-repeat;
+    padding-left: 23px;
+	margin-bottom: 15px;
+}
+
+.note {
+	color: #E64141;
+}
+/* Content Form */
+
+.content-form p {
+    margin-bottom: 10px;
+}
+
+.content-form input, .content-form textarea, .content-form select {
+	border: 1px solid #d9d9d9;
+	padding: 6px 10px;
+	border-radius: 0;
+	box-shadow: 0 0 5px rgba(0,0,0,0.1) inset;
+}
+
+.content-form input:hover, .content-form textarea:hover, .content-form select:hover,
+.content-form input:focus, .content-form textarea:focus, .content-form select:focus {
+	border-color: #ccc;
+}
+
+.content-form input {
+	width: 50%;
+}
+
+.content-form label, .content-form input, .content-form textarea, .content-form select {
+    margin-bottom: 5px;
+}
+
+.content-form label {
+	display: block;
+	clear: both;
+}
+
+.content-form .error {
+	color: #E64141;
+	display:block;
+}
+
+.content-form textarea, .content-form select {
+	width: 60%;
+}
+
+.content-form textarea {
+	height: 160px;
+}
+
+.content-form input[type="file"] {
+    padding: 0;
+    border: none;
+}
+.content-form .button {
+    width: auto;
+    display: inline-block;
+    cursor: pointer;
+    line-height: normal;
+    margin: 0 10px 20px 0;
+    border: none;
+    border-radius: 3px;
+    color: #fff !important;
+    padding: 6px 15px;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.2);
+    background-color: #2A8FBD;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Notification Boxes
+/* ---------------------------------------------------------------------- */
+.notification-box {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 10px 24px 10px 36px;
+    background: no-repeat 10px center;
+    border: 1px solid;
+}
+
+.notification-close-button {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #666 !important;
+    font-weight: bold;
+    font-size: 1.166em; /* 14px */
+    line-height: normal;
+}
+.notification-close-button:hover {cursor: pointer;}
+.notification-box p {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.notification-box > p:first-child {
+    margin: 0;
+}
+
+.notification-box-info {
+    background-color: #d7ebf5;
+    /*background-image: url(../images/info-16.png);*/
+    border-color: #99c7de;
+}
+
+.notification-box-success {
+    background-color: #e1ebc5;
+    /*background-image: url(../images/tick-16.png);*/
+    border-color: #bfd188;
+}
+
+.notification-box-warning {
+    background-color: #fcf3d7;
+    /*background-image: url(../images/warning-16.png);*/
+    border-color: #f5d77d;
+}
+
+.notification-box-error {
+    background-color: #faede6;
+    /*background-image: url(../images/block-16.png);*/
+    border-color: #f5ccb8;
+}

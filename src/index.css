@@ -1,6 +1,7 @@
 body {
+  /*background-color: #FFCC00;*/
   margin: 0;
-  padding: 0;
+  padding: 0 ;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -11,4 +12,131 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+ul.App-header li {
+	display:inline;
+	list-style-type: none;
+	margin:0;
+}
+ul.App-header li a:hover {
+	background-color: #6cbaef;
+}
+ul.App-header {
+	background-color: #111;
+	padding: 0; margin:0;
+}
+ul.App-header li a {
+	color: #FFF;
+	/*font-weight: bold;*/
+	text-decoration: none;
+	padding: 20px;
+	display: inline-block;
+}
+.App-content {
+	background-color: #FFF;
+}
+.App-content h2 {padding:0; margin:0;}
+.App-content li {margin-bottom: 10px;}
+
+.content-featured {background-color: black; color:white; padding:10px 50px; display:inline-block; text-align: left;}
+.centre {text-align: center;}
+.center_photos {text-align: center;margin:auto;max-width: 912px;}
+/* from original code */
+.one-half, .one-third, .one-fourth, .two-thirds, .three-fourths {
+	display: inline;
+	float: left;
+    margin-right: 2%;
+}
+.one-fourth {
+	width: 23.5%;
+	/*max-width: 220px;*/
+}
+.one-third {
+   	width: 32%;
+	max-width: 300px;
+}
+.one-half {
+	width: 49%;
+	max-width: 460px;
+}
+.three-fourths {
+	width: 74.5%;
+	max-width: 700px;
+}
+
+.column-last {
+	margin-right: 0 !important;
+}
+.iconbox > a * {
+    -webkit-transition: color 0.2s ease, background-color 0.2s ease, border 0.2s ease, opacity 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease, background-color 0.2s ease, border 0.2s ease, opacity 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease, background-color 0.2s ease, border 0.2s ease, opacity 0.2s ease-in-out;
+    -o-transition: color 0.2s ease, background-color 0.2s ease, border 0.2s ease, opacity 0.2s ease-in-out;
+    transition: color 0.2s ease, background-color 0.2s ease, border 0.2s ease, opacity 0.2s ease-in-out;
+}
+/* ---------------------------------------------------------------------- */
+/* Icon Boxes
+/* ---------------------------------------------------------------------- */
+.iconbox {
+	margin-bottom: 20px;
+	position: relative;
+	text-align: left;
+	font-size: 14px;
+}
+
+.iconbox-title {
+	padding-bottom: 0;
+	margin-bottom: 15px;
+	border: none;
+	font-weight: normal;
+}
+
+.iconbox > a {
+	display: block;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #d9d9d9;
+	padding: 15px 15px 20px;
+}
+
+.iconbox > a > * {
+	color: #333;
+}
+
+.iconbox > a:hover {
+	background-color: #fafafa;
+}
+
+.iconbox p:last-child {
+	margin-bottom: 0;
+}
+
+.icon-left .iconbox-icon {
+	float: left;
+	width: 36px;
+	height: 36px;
+	background-color: #333;
+	border-radius: 18px; /* half the width/height */
+	margin-right: 10px;
+	text-align: center;
+	line-height: 36px; /* same as the height */
+}
+
+.icon-left .iconbox-icon img {
+	display: inline-block;
+	max-width: 24px;
+	max-height: 20px;
+}
+
+.icon-top .iconbox-icon {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.icon-top .iconbox-icon img {
+	display: inline-block;
+	max-width: 100%;
+}
+
+.iconbox > a > .button {
+	margin-bottom: 0;
 }

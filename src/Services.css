@@ -1,0 +1,19 @@
+#services .cropPicture {
+			text-align: center;
+		    height: 350px;
+		    overflow: hidden;
+		}
+#services .cropPicture img { margin-top: -80px; }
+#services .content-services {background-color: black; color:white; padding:10px; }
+#services .content-services span {max-width: 980px; text-align: left;display: inline-block;}
+
+.middle > * {
+    vertical-align: middle;
+    display: inline-block;
+}
+#services .services {
+    font-size: 1em;
+    text-align: left;
+    color: black;
+    width: 50%;
+}
