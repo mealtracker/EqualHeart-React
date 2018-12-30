@@ -35,9 +35,9 @@ class About extends Component {
 	                            <div><a href="http://www.theheartofdallas.org" rel="noopener noreferrer" target="_blank">Heart of Dallas Young Professionals</a></div>
 	                            <div><a href="https://www.baylor.edu/texashunger" rel="noopener noreferrer" target="_blank">Texas Hunger Initiative</a></div>
 	                            <div><a href="http://giving.walmart.com/foundation" rel="noopener noreferrer" target="_blank">Walmart Foundation</a></div>
-	                            <div><a href="http://www.pepsico.com/Purpose/Global-Citizenship" rel="noopener noreferrer" target="_blank">PepsiCo Foundation</a></div>
+	                            <div><a href="https://www.pepsico.com/sustainability/Philanthropy" rel="noopener noreferrer" target="_blank">PepsiCo Foundation</a></div>
 	                            <div><a href="http://www.bgcaustin.org" target="_blank" rel="noopener noreferrer" >Boys and Girls Club of Austin</a></div>
-	                            <div><a href="http://www.twelveoakscatering.com" target="_blank" rel="noopener noreferrer">Twelve Oaks Catering</a></div>
+	                            <div><a href="http://www.schoolnutritionandfitness.com" target="_blank" rel="noopener noreferrer">Twelve Oaks Catering</a></div>
 	                            <div><a href="http://www.squaremeals.org/" target="_blank" rel="noopener noreferrer">Texas Department of Agriculture</a></div>
 		                	</div>
 		                </div>

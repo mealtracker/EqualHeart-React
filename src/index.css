@@ -20,14 +20,15 @@ ul.App-header li {
 }
 ul.App-header li a:hover {
 	background-color: #6cbaef;
+	color:white;
 }
 ul.App-header {
-	background-color: #111;
 	padding: 0; margin:0;
+	color:black;
 }
 ul.App-header li a {
-	color: #FFF;
-	/*font-weight: bold;*/
+	color: #000;
+	font-weight: bold;
 	text-decoration: none;
 	padding: 20px;
 	display: inline-block;
@@ -38,19 +39,20 @@ ul.App-header li a {
 .App-content h2 {padding:0; margin:0;}
 .App-content li {margin-bottom: 10px;}
 
-.content-featured {background-color: black; color:white; padding:10px 50px; display:inline-block; text-align: left;}
+.content-featured {
+	background-color: black; color:white;
+	padding:10px 50px; text-align: left;
+	display:inline-block; font-size:1em;
+}
 .centre {text-align: center;}
-.center_photos {text-align: center;margin:auto;max-width: 912px;}
+
 /* from original code */
 .one-half, .one-third, .one-fourth, .two-thirds, .three-fourths {
 	display: inline;
 	float: left;
     margin-right: 2%;
 }
-.one-fourth {
-	width: 23.5%;
-	/*max-width: 220px;*/
-}
+
 .one-third {
    	width: 32%;
 	max-width: 300px;
@@ -59,10 +61,7 @@ ul.App-header li a {
 	width: 49%;
 	max-width: 460px;
 }
-.three-fourths {
-	width: 74.5%;
-	max-width: 700px;
-}
+
 
 .column-last {
 	margin-right: 0 !important;

@@ -1,11 +1,29 @@
 #home_section .cropPicture {
 	text-align: center;
-    /*height: 350px;*/
-    overflow: hidden;
 }
-
-@media (min-device-width: 320px) and (max-device-width: 667px) {
-  .cropPicture {
-    margin-left:-150px;
-  }
+#home_section .cropPicture img {
+    max-width: 100%;
 }
+.center_photos {text-align: center;margin:auto;max-width: 912px;    padding: 0 20px;}
+.foodinsecurity {float:left;max-width:90%;margin-right:15px;}
+.container {
+    width: 940px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.clearfix {
+    zoom: 1;
+}
+.red {background-color: red;}
+#nowhiring,.innerdiv {    margin-top: -40px;
+    font-size: 30px;
+    text-align: center;
+    background: #2A8FBD;
+    line-height: 46px;
+    color: white;
+    font-weight: 600;
+}
+#vista {text-align: center;max-width: 100% ;padding:20px 0;}
+#vista img {max-width: 100%;}
+#nowhiring:hover {cursor: pointer;}
+section  { margin-bottom: 4px; }

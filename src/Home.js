@@ -16,14 +16,14 @@ class Home extends Component {
 		            <div className="one-half">
 		                <div className="iconbox icon-top">
 	                        <div className="iconbox-icon"><img src="images/sfsp_numbers.png" alt="SFSP Food" /></div>
-	                        <p>Equal Heart had a great summer serving meals in Dallas, Austin, Houston and Denver</p>
+	                        <p>Equal Heart has served over 3 million meals to children in Texas, Arkansas and Colorado over the past four years.</p>
 		                </div>
 		           </div>
 
 		           <div className="one-half column-last">
 		                <div className="iconbox icon-top">
 	                        <div className="iconbox-icon"><img src="images/cacfp_numbers.png" alt="CACFP" /></div>
-	                        <p>Equal Heart is looking forward to another school year where we can provide nutritious meals during after school activities.</p>
+	                        <p>Equal Heart is expanding to Arizona, California and Illinois to further our outreach in our goal to provide nutrious meals to underserved communities.</p>
 		                </div>
 		            </div>
 				</div>
@@ -42,6 +42,14 @@ class Home extends Component {
 		                </div>
 		            </div>
 				</div>
+				<section className="container clearfix">
+				    <h1>Food Insecurity</h1>
+				    <div>
+					    <img src="images/foodinsecurity.png" className="foodinsecurity" alt="Food Insecurity Chart" />
+					    <p>To help address food insecurity, Equal Heart provides nutritious food to families year round with our Mobile Food Access Network.  Food insecurity exists throughout the country. But not everyone struggling with hunger qualifies for federal nutrition assistance. Almost 20% of Dallas County residents experienced food insecurity in 2015.  Of that number, 23% were not eligible for any nutrition assistance.  One in five children in North Texas lives in poverty, with more than 260,000 kids in the area considered food insecure, according to a biennial study released Tuesday from Children’s Health and the University of Texas at Dallas.  </p>
+					</div>
+				</section>
+				<div id='vista'><img src='images/AmeriCorps_VISTALogo4C_black.png' alt="AmeriCorps VISTA" /></div>
 			</div>
 		);
 	}

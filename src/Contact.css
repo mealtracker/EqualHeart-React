@@ -1,5 +1,12 @@
 #contact_form {padding:20px 30px;}
 #contact_form .invalid_feedback {display:block;color:red;    font-size: 12px;}
+#contact_form .one-fourth {
+    min-width: 300px;
+}
+#contact_form .three-fourths {
+    min-width: 300px;
+    max-width: 700px;
+}
 /* from original contact form styling */
 .page-title {
     background-color: #333;
@@ -49,7 +56,7 @@
 }
 
 .content-form input {
-	width: 50%;
+	width: 80%;
 }
 
 .content-form label, .content-form input, .content-form textarea, .content-form select {
@@ -67,7 +74,7 @@
 }
 
 .content-form textarea, .content-form select {
-	width: 60%;
+	width: 80%;
 }
 
 .content-form textarea {
