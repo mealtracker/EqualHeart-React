@@ -1,0 +1,24 @@
+/* Media queries don't work well in React development environment
+	so I am using a static .css file
+	React development environment also doesn't like background images
+	declared in the css files.
+	<div>Icons made by <a href="https://www.freepik.com/" from <a href="https://www.flaticon.com/"
+	title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+	title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+*/
+
+@media (max-width: 600px) {
+  #long_logo {
+    display:none;
+  }
+  ul.App-header li {
+  	font-size: 12px;
+  	margin-left: 10px;
+  }
+  #fb_icon {
+  	/* use id here as it will override the index.css file */
+  	width: 20px;
+  	margin-top:0;
+  }
+  .content-services, .content-featured {font-size: 12px;}
+}

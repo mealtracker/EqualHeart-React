@@ -5,14 +5,22 @@
     max-width: 100%;
 }
 .center_photos {text-align: center;margin:auto;max-width: 912px;    padding: 0 20px;}
-.foodinsecurity {float:left;max-width:90%;margin-right:15px;}
+.foodinsecurity {
+    float:left;max-width:98%;
+    margin-right:15px;max-width: 100%;
+    width: 460px;
+}
 .container {
     width: 940px;
     max-width: 100%;
     margin: 0 auto;
+    padding: 0 10px;
+}
+.container span {
+    font-size: 12px;
 }
 .clearfix {
-    zoom: 1;
+    clear: both;
 }
 .red {background-color: red;}
 #nowhiring,.innerdiv {    margin-top: -40px;
@@ -23,7 +31,16 @@
     color: white;
     font-weight: 600;
 }
+
+
 #vista {text-align: center;max-width: 100% ;padding:20px 0;}
-#vista img {max-width: 100%;}
+#vista img {
+    max-width: 100%;
+    width: 400px;
+    margin:20px 8px;
+}
+
 #nowhiring:hover {cursor: pointer;}
 section  { margin-bottom: 4px; }
+
+

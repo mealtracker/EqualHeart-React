@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Route,NavLink,HashRouter} from "react-router-dom";
-import Home from "./Home";
+import Home from "./Home2";
 import Services from "./Services";
 import Contact from "./Contact";
 import About from "./About";
@@ -9,12 +9,12 @@ import './App.css';
 class App extends Component {
   //when link is clicked, "active" class is assigned
   render() {
-    var fb_icon={marginTop: "-10px"}
     return (
       <HashRouter>
       <div>
         <ul className="App-header">
-          <li className='logo'><img src="images/eq-heart.png" alt="Equal Heart" /></li>
+
+          <li id='long_logo'><img src="images/eq-heart.png" alt="Equal Heart" /></li>
           <li><NavLink exact to="/">Home</NavLink></li>
           <li><NavLink to="/whatwedo">What We Do</NavLink></li>
           <li><NavLink to="/about">About</NavLink></li>
@@ -27,7 +27,7 @@ class App extends Component {
                     <input type="submit" className="donate_button" name="submit" value="Donate" />
                 </form>
             </li>
-          <li><a href="https://www.facebook.com/equalheart.org"><img src='images/facebook.png' alt='Facebook' style={fb_icon} /></a></li>
+          <li><a href="https://www.facebook.com/equalheart.org"><img src='images/facebook.png' alt='Facebook' id="fb_icon" /></a></li>
         </ul>
         <div className="App-content">
             <Route exact path="/" component={Home}/>

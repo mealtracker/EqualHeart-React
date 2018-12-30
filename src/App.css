@@ -17,12 +17,15 @@
   color: #61dafb;
 }
 
-
+.menu_text {display:inline;}
 .active,.active:hover {background-color:#2A8FBD ;}
-
-.logo img {
-  margin: 0 5px 0 15px;
-  width: 350px;
+#long_logo {
+  margin: 0 10px;
+  width: 30%;
+  max-width: 350px;
+}
+#long_logo img {
+  width: 100%;
 }
 .donate_button {
     border: none;
