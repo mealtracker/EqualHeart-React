@@ -22,7 +22,7 @@
 .clearfix {
     clear: both;
 }
-.red {background-color: red;}
+.red {color: red; border:2px dashed red;}
 #nowhiring,.innerdiv {    margin-top: -40px;
     font-size: 30px;
     text-align: center;

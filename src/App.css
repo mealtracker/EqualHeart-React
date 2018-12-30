@@ -27,18 +27,7 @@
 #long_logo img {
   width: 100%;
 }
-.donate_button {
-    border: none;
-    background: white;
-    font-weight: bold;
-    font-size: 1em;
-    display: inline-block;
-    padding: 23px 10px;
-}
-.donate_button:hover {
-  background-color: #6cbaef;
-  color:white;
-}
+
 /*
 .App-logo {
   animation: App-logo-spin infinite 20s linear;

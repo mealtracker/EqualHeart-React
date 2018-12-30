@@ -94,17 +94,6 @@ ul.App-header li a img {
 	font-weight: normal;
 }
 
-/*.iconbox > a {
-	display: block;
-	background-color: #f2f2f2;
-	border-bottom: 1px solid #d9d9d9;
-	padding: 15px 15px 20px;
-}
-
-.iconbox > a > * {
-	color: #333;
-}*/
-
 .iconbox > a:hover {
 	background-color: #fafafa;
 }
@@ -129,11 +118,6 @@ ul.App-header li a img {
 	max-width: 24px;
 	max-height: 20px;
 }
-
-/*.icon-top .iconbox-icon {
-	margin-bottom: 10px;
-	text-align: center;
-}*/
 
 .icon-top .iconbox-icon img {
 	display: inline-block;

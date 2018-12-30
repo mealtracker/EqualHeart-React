@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import {Route,NavLink,HashRouter} from "react-router-dom";
-import Home from "./Home2";
+import Home from "./Home";
 import Services from "./Services";
 import Contact from "./Contact";
 import About from "./About";
+import Jobs from "./Jobs";
 import './App.css';
 // use React Route for SPA by installing > npm i react-router-dom --save
 class App extends Component {
@@ -19,14 +20,8 @@ class App extends Component {
           <li><NavLink to="/whatwedo">What We Do</NavLink></li>
           <li><NavLink to="/about">About</NavLink></li>
           <li><NavLink to="/contact">Contact</NavLink></li>
-          <li>
-                {/* this is the donate button.  Leave it alone */}
-                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                    <input type="hidden" name="cmd" value="_s-xclick" />
-                    <input type="hidden" name="hosted_button_id" value="26R6QEWWKV57G" />
-                    <input type="submit" className="donate_button" name="submit" value="Donate" />
-                </form>
-            </li>
+          <li><NavLink to="/jobs">Jobs</NavLink></li>
+          <li><a href="https://www.paypal.com/cgi-bin/webscr?hosted_button_id=26R6QEWWKV57G&cmd=_s-xclick" >Donate</a></li>
           <li><a href="https://www.facebook.com/equalheart.org"><img src='images/facebook.png' alt='Facebook' id="fb_icon" /></a></li>
         </ul>
         <div className="App-content">
@@ -34,6 +29,7 @@ class App extends Component {
             <Route path="/whatwedo" component={Services}/>
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
+            <Route path="/jobs" component={Jobs}/>
         </div>
       </div>
       </HashRouter>
