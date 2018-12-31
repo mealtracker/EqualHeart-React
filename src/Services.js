@@ -1,16 +1,18 @@
 import React, {Component} from "react";
 import './Services.css';
+import BigPhoto from "./BigPhoto";
+
+var big_photo_data={
+	"photo":"images/services_big.jpg",
+	"alt":"team member with children",
+	"text":"We deliver federally funded meals free of charge to children at after-school and summer sites throughout the country. We are the largest nonprofit summer food sponsor in the state of Texas. In Dallas, we also provide nutritious food to families year round with our Mobile Food Access Network. Additionally, we engage and empower disconnected youth to facilitate our programs through AmeriCorps."
+};
 
 class Services extends Component {
 	render() {
 		return (
 			<div id="services">
-				<div className="cropPicture">
-					<img src="images/services_big.jpg" alt="team member with children" id="services_big" />
-				</div>
-				<div className="centre">
-					<p className="content-services"><span>We deliver federally funded meals free of charge to children at after-school and summer sites throughout the country. We are the largest nonprofit summer food sponsor in the state of Texas. In Dallas, we also provide nutritious food to families year round with our Mobile Food Access Network. Additionally, we engage and empower disconnected youth to facilitate our programs through AmeriCorps.</span></p>
-				</div>
+				<BigPhoto data={big_photo_data} />
 				<div className="centre">
 			    	<div className="middle">
 			            <div><img src="images/sfsp.png" alt="SFSP logo" /></div>

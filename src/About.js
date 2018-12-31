@@ -1,17 +1,19 @@
 import React, {Component} from "react";
 import "./About.css";
+import BigPhoto from "./BigPhoto";
+
+var big_photo_data={
+	"photo":"images/about1.jpg",
+	"alt":"children with puppy",
+	"text":"Equal Heart is a 501(c)3 nonprofit with operations in Texas, Arizona, Arkansas, California and Colorado. We are currently focused on alleviating hunger as we work to expand access to ensure every hungry individual has a daily meal no matter their circumstances."
+};
 
 class About extends Component {
 
 	render() {
 		return (
 			<div className="about">
-				<div className="cropPicture">
-					<img src="images/about1.jpg" alt="children with puppy" />
-				</div>
-				<div className="centre">
-					<p className="content-services"><span>Equal Heart is a 501(c)3 nonprofit with operations in Texas, Arizona, Arkansas, California and Colorado. We are currently focused on alleviating hunger as we work to expand access to ensure every hungry individual has a daily meal no matter their circumstances.</span></p>
-				</div>
+				<BigPhoto data={big_photo_data} />
 		           <div className="middle centre">
 		                <div><img src="images/baby.jpg" alt="baby in father's arm" className="baby" /></div>
 		                <div className="services">

@@ -1,27 +1,28 @@
 import React, {Component} from "react";
 import PhotoBox from "./PhotoBox";
 import "./Home.css";
-	var boxes = [
-		{"key":0,"photo":"images/chart_meals.png", "alt":"Chart","text":"Equal Heart has served over 3 million meals to children in Texas, Arkansas and Colorado over the past four years."},
-		{"key":1,"photo":"images/US-Map-places.png", "alt":"US Map","text":"Equal Heart is expanding to Arizona, California and Illinois in our goal to provide nutrious meals to underserved communities."},
-		{"key":2,"photo":"images/title_page_bottom_left.png", "alt":"SFSP Food","text":"Equal Heart works to end hunger in the United States. We do this through direct service by increasing access to healthy food sources."},
-		{"key":3,"photo":"images/title_page_bottom_right.png", "alt":"SFSP Team","text":"Equal Heart partners with organizations to leverage existing funding streams which results in expanded services to those facing adversity."},
-	];
-	var render_boxes=[];
-	boxes.forEach(function(box){
-		render_boxes.push(<PhotoBox key={box.key} box={box} />)
-	});
+import BigPhoto from "./BigPhoto";
+
+var big_photo_data={
+	"photo":"images/cute_kid.png",
+	"alt":"Smiling Boy",
+	"text":"Our vision is a world where misfortune is overcome through shared response. Where the humanity and courage inherent in each individual is recognized."};
+var boxes = [
+	{"key":0,"photo":"images/chart_meals.png", "alt":"Chart","text":"Equal Heart has served over 3 million meals to children in Texas, Arkansas and Colorado over the past four years."},
+	{"key":1,"photo":"images/US-Map-places.png", "alt":"US Map","text":"Equal Heart is expanding to Arizona, California and Illinois in our goal to provide nutrious meals to underserved communities."},
+	{"key":2,"photo":"images/title_page_bottom_left.png", "alt":"SFSP Food","text":"Equal Heart works to end hunger in the United States. We do this through direct service by increasing access to healthy food sources."},
+	{"key":3,"photo":"images/title_page_bottom_right.png", "alt":"SFSP Team","text":"Equal Heart partners with organizations to leverage existing funding streams which results in expanded services to those facing adversity."},
+];
+var render_boxes=[];
+boxes.forEach(function(box){
+	render_boxes.push(<PhotoBox key={box.key} box={box} />)
+});
 
 class Home extends Component {
 	render() {
 		return (
 			<div id="home_section">
-				<div className="cropPicture centre">
-					<img src="images/cute_kid.png" alt="Smiling Boy" />
-				</div>
-				<div className="centre">
-					<p className="content-featured">Our vision is a world where misfortune is overcome through shared response. Where the humanity and courage inherent in each individual is recognized.</p>
-				</div>
+				<BigPhoto data={big_photo_data} />
 				<div className="center_photos">
 					{render_boxes}
 				</div>

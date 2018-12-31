@@ -4,9 +4,6 @@
 		    overflow: hidden;
 		}
 
-.about .content-services {background-color: black; color:white; padding:10px; }
-.about .content-services span {max-width: 880px; text-align: left;display: inline-block;}
-
 .middle > * {
     vertical-align: middle;
     display: inline-block;
@@ -31,8 +28,3 @@
 #partners>div{margin-left: 40px;}
 #partners>div a {color:blue; text-decoration: none;}
 #partners>div a:hover {color:green;}
-@media (max-width: 767px) {
-    .about .services {
-        width:90%;
-    }
-}

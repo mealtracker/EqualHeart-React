@@ -4,8 +4,6 @@
 		    overflow: hidden;
 		}
 #services .cropPicture img { margin-top: -80px; }
-#services .content-services {background-color: black; color:white; padding:10px; }
-#services .content-services span {max-width: 980px; text-align: left;display: inline-block;}
 
 .middle > * {
     vertical-align: middle;

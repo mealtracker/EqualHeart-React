@@ -4,8 +4,17 @@
 	declared in the css files.
 */
 .iconbox-icon { text-align: center; }
-@media (max-width: 600px) {
+/* for iphones */
+.content-form .button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 
+@media (max-width: 600px) {
+  /* react css will always take precedence because react ignores media queries
+      Need to use !important or enter in such a way that these entries have css precedence
+  */
   #long_logo {
     display:none;
   }
@@ -19,12 +28,13 @@
   	width: 20px;
   	margin-top:0;
   }
+  #slogan {left: 10px; font-size: 18px;}
   .content-services {font-size: 12px;}
   #services .cropPicture img {margin-left:-150px;}
 
   #hiring {padding:0 10px;}
   #hiring div.l1 {font-size: 14px;}
-  /* react css will always take precedence because react ignores media queries*/
+
   #hiring h1 {font-size: 1.8em !important; text-align: center;}
   #small_logo {display:block;width:100%;}
   #home_section .foodinsecurity {float:none;}

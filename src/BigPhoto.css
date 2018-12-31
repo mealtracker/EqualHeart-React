@@ -1,0 +1,54 @@
+.slogan {
+	position: absolute;
+	visibility: visible;
+    font-size: 30px;
+    padding: 5px 15px;
+    margin: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    line-height: 37px;
+    white-space: nowrap;
+    opacity: 1;
+    left: 100px;
+    top: 180px;
+    color:white;
+    background-color: #2A8FBD;
+    letter-spacing: -0.02em;
+    vertical-align: baseline;
+  -webkit-animation: fadein 5s, slide-down 3s; /* Safari 4+ */
+  -moz-animation:    fadein 5s, slide-down 3s; /* Fx 5+ */
+  -o-animation:      fadein 5s, slide-down 3s; /* Opera 12+ */
+  animation:         fadein 5s, slide-down 3s; /* IE 10+, Fx 29+ */
+}
+
+
+@keyframes slide-down {
+  from {
+    margin-top: -60px;
+    opactiy:0;
+  }
+
+  to {
+    margin-top: 0%;
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadein{
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes fadein{
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadein {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+

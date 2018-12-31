@@ -191,7 +191,10 @@ class Contact extends Component {
 	                <h3>Contact Info</h3>
 	                <p>You can also reach us here:</p>
 	                <div>
-	                    <p className="address"><img src="images/contact/home.png" alt="address" /> <strong>Address:</strong> 4848 Lemmon Ave #513  Dallas, TX  75219</p>
+	                    <p className="address">
+	                    	<img src="images/contact/home.png" alt="address" />
+	                    	<strong>Address:</strong><br />&nbsp;&nbsp;&nbsp;4848 Lemmon Ave #513<br />&nbsp;&nbsp;&nbsp;Dallas, TX  75219
+	                    </p>
 	                    <p className="phone"><img src="images/contact/phone.png" alt="phone" /> <strong>Phone:</strong>  (469) 526-3645</p>
 	                    <p className="email"><img src="images/contact/mail.png" alt="email" /> <strong>Email:</strong> <a href="mailto:courage@equalheart.org">courage@equalheart.org</a></p>
 	                </div>
