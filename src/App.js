@@ -14,7 +14,6 @@ class App extends Component {
       <HashRouter>
       <div>
         <ul className="App-header">
-
           <li id='long_logo'><img src="images/eq-heart.png" alt="Equal Heart" /></li>
           <li><NavLink exact to="/">Home</NavLink></li>
           <li><NavLink to="/whatwedo">What We Do</NavLink></li>

@@ -16,14 +16,14 @@ code {
 ul.App-header li {
 	display:inline;
 	list-style-type: none;
-	margin:0;
 }
 ul.App-header li a:hover {
 	background-color: #6cbaef;
 	color:white;
 }
 ul.App-header {
-	padding: 0; margin:0;
+	padding: 0;
+	margin:0;
 	color:black;
 }
 ul.App-header li a {
@@ -52,8 +52,8 @@ ul.App-header li a img {
 
 /* from original code */
 .one-half, .one-third, .one-fourth, .two-thirds, .three-fourths {
-	display: inline;
-	float: left;
+	display: inline-block;
+	/*float: left;*/
     margin-right: 2%;
 }
 
@@ -112,7 +112,7 @@ ul.App-header li a img {
 	text-align: center;
 	line-height: 36px; /* same as the height */
 }
-
+.iconbox-icon { text-align: center; }
 .icon-left .iconbox-icon img {
 	display: inline-block;
 	max-width: 24px;

@@ -3,21 +3,23 @@
 	React development environment also doesn't like background images
 	declared in the css files.
 */
-
+.iconbox-icon { text-align: center; }
 @media (max-width: 600px) {
+
   #long_logo {
     display:none;
   }
+
   ul.App-header li {
   	font-size: 12px;
-  	margin-left: 10px;
   }
+  .App-header li:nth-child(2) {margin-left: 10px;}
   #fb_icon {
   	/* use id here as it will override the index.css file */
   	width: 20px;
   	margin-top:0;
   }
-  .content-services, .content-featured {font-size: 12px;}
+  .content-services {font-size: 12px;}
   #services .cropPicture img {margin-left:-150px;}
 
   #hiring {padding:0 10px;}
@@ -25,4 +27,9 @@
   /* react css will always take precedence because react ignores media queries*/
   #hiring h1 {font-size: 1.8em !important; text-align: center;}
   #small_logo {display:block;width:100%;}
+  #home_section .foodinsecurity {float:none;}
+  #home_section .container span {display:block;    padding: 10px;}
+  #home_section .one-half {width:100%;}
+  #home_section .content-featured {font-size: 12px;padding: 10px;}
+
 }
